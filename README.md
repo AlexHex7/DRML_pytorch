@@ -19,11 +19,10 @@
 - pytorch 0.3.0
 
 ## Accuracy
-**With Region Layer**
-You can see the results in log file **logs/region_layer.log**.
+You can see the results in log files
 
-**Without Region Layer**
-You can see the results in log file **logs/without_region_layer.log**.
+- **logs/region_layer.log**.
+- **logs/without_region_layer.log**.
 
 **Visualization**
 The result with region layer is worse than without region layer. I think it maybe have something to do with
