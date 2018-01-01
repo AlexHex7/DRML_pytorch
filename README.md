@@ -5,7 +5,7 @@
 ## Statement
 - Do the Experiments on the **Cohn-Kanade** dataset. And I only use about 600 images (nearly 500 images for training, 100 images for testing, 12 AU, **no alignment** ). 
 
-- **Compare with and without Region Layer**. In the situation of** without Region Layer**, I use one convolution layer to replace it.
+- **Compare with and without Region Layer**. In the situation of **without Region Layer**, I use one convolution layer to replace it.
 
 - **Directly train** without sample operation to deal with imbalance between positive and negative samples. So the dataset only contains label (1, -1)
 
