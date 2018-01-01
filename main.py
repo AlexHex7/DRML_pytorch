@@ -13,7 +13,7 @@ def adjust_learning_rate(optimizer, decay_rate=.9):
 logging.basicConfig(level=logging.INFO,
                     format='(%(asctime)s %(levelname)s) %(message)s',
                     datefmt='%d %b %H:%M:%S',
-                    filename='logs/without_region_layer.log',
+                    filename='logs/region_layer.log',
                     filemode='w')
 
 console = logging.StreamHandler()

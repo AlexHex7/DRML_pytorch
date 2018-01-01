@@ -12,8 +12,8 @@ class Network(nn.Module):
 
         self.extractor = nn.Sequential(
             nn.Conv2d(in_channels=3, out_channels=32, kernel_size=11, stride=1),
-            # RegionLayer(in_channels=32, grid=(8, 8)),
-            ReplaceRegionLayer(in_channels=32,),
+            RegionLayer(in_channels=32, grid=(8, 8)),
+            # ReplaceRegionLayer(in_channels=32,),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2, stride=2),
             nn.BatchNorm2d(num_features=32),
